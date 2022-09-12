@@ -40,8 +40,22 @@ npm create vite@latest
 ```
 
 ## Mobile
+- Node, Git, Watchman --> Expo CLI
 
+Install Expo CLI:
+```sh
+npm install --global expo-cli
+```
 
+Create the project (blank - Typescript):
+```sh
+expo init mobile
+```
+
+Start the project:
+```sh
+expo start
+```
 
 
 ## Tools
