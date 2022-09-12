@@ -34,7 +34,10 @@ npx tsc --init
 ```
 
 ## Web
-
+Create the project:
+```sh
+npm create vite@latest
+```
 
 ## Mobile
 
