@@ -68,6 +68,13 @@ Start the project:
 expo start
 ```
 
+Install Expo dependencies
+```sh
+expo install expo-font @expo-google-fonts/inter
+expo install react-native-safe-area-context
+expo install expo-linear-gradient
+```
+
 
 ## Tools
  - [Insomnia](https://insomnia.rest/download)
@@ -76,9 +83,13 @@ expo start
 
  - [Tailwind](https://tailwindcss.com/)
 
+ - [Expo Google Fonts](https://docs.expo.dev/guides/using-custom-fonts/)
+ - [React Navigation](https://reactnavigation.org/)
+
  - [Figma](https://www.figma.com/file/mAhMMRTiieN3gGtl0fGv6i/NLW-eSports)
  - [Notes](https://efficient-sloth-d85.notion.site/Ignite-18c1174738e54f1d8e742f794e210cd2)
 
 ## Extensões
 - [PostCSS Language Support](https://marketplace.visualstudio.com/items?itemName=csstools.postcss)
 - [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
+- [R Component](https://marketplace.visualstudio.com/items?itemName=rodrigorgtic.rcomponent)
