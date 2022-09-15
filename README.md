@@ -19,13 +19,23 @@ npm init -y
 Install dependencies:
 ```sh
 npm install express
+npm install cors
+npm install @prisma/client
 ```
 
 Install development dependencies:
 ```sh
 npm install typescript -D
 npm install @types/express -D
+npm install @types/cors -D
 npm install ts-node-dev -D
+npm install prisma -D
+npx prisma init
+npx prisma init -h
+npx prisma init --datasource-provider SQLite
+npx prisma migrate dev
+npx prisma studio
+npm install zod
 ```
 
 Create the tsconfig.json file:
@@ -89,7 +99,23 @@ expo install expo-linear-gradient
  - [Figma](https://www.figma.com/file/mAhMMRTiieN3gGtl0fGv6i/NLW-eSports)
  - [Notes](https://efficient-sloth-d85.notion.site/Ignite-18c1174738e54f1d8e742f794e210cd2)
 
+ - [Zod](https://github.com/colinhacks/zod) - Data validation.
+
+## Database
+### Abstraction Level 1 - Pure SQL Query
+ - [SQLite](https://github.com/TryGhost/node-sqlite3) ```sh npm install sqlite3```
+
+### Abstraction Level 2 - Query Builder
+ - [Knex.js](https://knexjs.org/)
+
+### Abstraction Level 3 - ORM (Object Relational Mapper)
+ - [Sequelize](https://sequelize.org/)
+ - [Type ORM](https://typeorm.io/)
+ - [Prisma](https://www.prisma.io/)
+
 ## Extensões
 - [PostCSS Language Support](https://marketplace.visualstudio.com/items?itemName=csstools.postcss)
 - [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
 - [R Component](https://marketplace.visualstudio.com/items?itemName=rodrigorgtic.rcomponent)
+- [Prisma](https://marketplace.visualstudio.com/items?itemName=Prisma.prisma)
+- [SQLite](https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite)
