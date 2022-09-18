@@ -52,6 +52,7 @@ npm create vite@latest
 Install dependencies:
 ```sh
 npm install phosphor-react
+npm install @radix-ui/react-dialog
 ```
 
 Install development dependencies:
@@ -92,6 +93,10 @@ expo install expo-linear-gradient
  - [Hoppscotch](https://hoppscotch.io/pt-br)
 
  - [Tailwind](https://tailwindcss.com/)
+
+ - [Headless UI](https://headlessui.com)
+ - [Aria Kit](https://ariakit.org)
+ - [Radix UI](https://www.radix-ui.com)
 
  - [Expo Google Fonts](https://docs.expo.dev/guides/using-custom-fonts/)
  - [React Navigation](https://reactnavigation.org/)
