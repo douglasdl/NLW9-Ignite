@@ -79,11 +79,20 @@ Start the project:
 expo start
 ```
 
+Install dependencies:
+```sh
+npm install @react-navigation/native
+npm install @react-navigation/native-stack
+npm install --save phosphor-react-native
+```
+
 Install Expo dependencies
 ```sh
 expo install expo-font @expo-google-fonts/inter
 expo install react-native-safe-area-context
 expo install expo-linear-gradient
+expo install react-native-screens
+expo install react-native-svg
 ```
 
 
@@ -99,6 +108,7 @@ expo install expo-linear-gradient
  - [Radix UI](https://www.radix-ui.com)
 
  - [Expo Google Fonts](https://docs.expo.dev/guides/using-custom-fonts/)
+ - [Expo Vector Icons](https://oblador.github.io/react-native-vector-icons/)
  - [React Navigation](https://reactnavigation.org/)
 
  - [Figma](https://www.figma.com/file/mAhMMRTiieN3gGtl0fGv6i/NLW-eSports)
