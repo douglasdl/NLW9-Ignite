@@ -51,8 +51,13 @@ npm create vite@latest
 
 Install dependencies:
 ```sh
+npm install axios
 npm install phosphor-react
 npm install @radix-ui/react-dialog
+npm install @radix-ui/react-checkbox
+npm install @radix-ui/react-select
+npm install @radix-ui/react-toggle-group
+npm install keen-slider
 ```
 
 Install development dependencies:
@@ -79,6 +84,11 @@ Start the project:
 expo start
 ```
 
+Login Expo
+```sh
+expo login
+```
+
 Install dependencies:
 ```sh
 npm install @react-navigation/native
@@ -93,6 +103,9 @@ expo install react-native-safe-area-context
 expo install expo-linear-gradient
 expo install react-native-screens
 expo install react-native-svg
+expo install expo-clipboard
+expo install expo-notifications
+expo install expo-modules-core
 ```
 
 
@@ -106,10 +119,13 @@ expo install react-native-svg
  - [Headless UI](https://headlessui.com)
  - [Aria Kit](https://ariakit.org)
  - [Radix UI](https://www.radix-ui.com)
+ - [Keen Slider](https://keen-slider.io)
+ - [React Hook Form](https://react-hook-form.com)
 
  - [Expo Google Fonts](https://docs.expo.dev/guides/using-custom-fonts/)
  - [Expo Vector Icons](https://oblador.github.io/react-native-vector-icons/)
  - [React Navigation](https://reactnavigation.org/)
+ - [Expo Push Notification Tool](https://expo.dev/notifications)
 
  - [Figma](https://www.figma.com/file/mAhMMRTiieN3gGtl0fGv6i/NLW-eSports)
  - [Notes](https://efficient-sloth-d85.notion.site/Ignite-18c1174738e54f1d8e742f794e210cd2)
